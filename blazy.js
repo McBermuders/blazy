@@ -136,6 +136,7 @@
                 bindEvent(window, 'resize', util.saveViewportOffsetT);
                 bindEvent(window, 'resize', util.validateT);
                 bindEvent(window, 'scroll', util.validateT);
+                bindEvent(window, 'moveDown', util.validateT);
             }
             // And finally, we start to lazy load.
             validate(self);
